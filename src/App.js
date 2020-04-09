@@ -1,9 +1,12 @@
 import React from 'react';
+import MyComponent from './MyComponent';
+import ChildComponent from './ChildComponent';
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  return (    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +22,10 @@ function App() {
           Learn React by minhyup
         </a>
       </header>
+      <MyComponent name="minhyup" />
+      <MyComponent  />
+      <ChildComponent name="hahaha"> dddddd</ChildComponent>
+
     </div>
   );
 }
