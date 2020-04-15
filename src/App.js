@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import SassComponent from '../src/chapter9/SassComponent';
+import CSSModule from '../src/chapter9/CSSModule';
+import StyledComponent from '../src/chapter9/StyledComponent';
 // import MyComponent from './MyComponent';
 // import ChildComponent from './ChildComponent';
 // import EventPracticee from '../src/chapter4/EventPractice';
@@ -42,6 +44,10 @@ class App extends Component {
 
     <div>
       <SassComponent />
+      <hr />
+      <CSSModule />
+      <hr />
+      <StyledComponent />
     </div>
 
     );

@@ -1,6 +1,10 @@
 import React from 'react';
 //import '../styles/SassComponent.scss';
+//import '../styles/SassComponent2.scss';
+//import '../chapter9/SassComponent2.scss';
 import '../styles/SassComponent.scss';
+//import 'SassComponent2.scss';
+//import 'SassComponent.scss';
 
 
 const SassComponent = () => {
